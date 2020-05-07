@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+/*=====テキストサイズの自動拡大を無効化=====*/
+body {
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+    font-family: sans-serif;
+  margin: 0;
+}
+
+/*=====ページ全体の設定=====*/
+
+header {
+  padding: 23px;
+  text-align: center;
+  font-family: "Exo 2" , sans-serif;
+}
+
+/*リンクの装飾設定*/
+a {
+  color: initial;/**/
+  text-decoration: none;/*下線消し*/
+}
+
+/*=====ナビゲーションメニュー=====*/
+ul {
+  color: black;
+  font-family: 'KozGoPr6N',sans-serif;
+  font-size: 14px;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+/*最後の要素以外適用*/
+nav li:not(:last-child) {
+  margin-right: 20px;
+}
+
+/*ロゴの右マージン*/
+li .logo {
+  margin-right: 87px;
+}
+
+/*
+ナビメニューの最後の要素を装飾
+*/
+li:last-child .Rectangle-2 {
+  width: 112px;
+  height: 14px;
+  font-family: KozGoPr6N;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+/*ボタン装飾ここから*/
+  width: 132px;
+  height: 30px;
+  border-radius: 25px;
+  background-color: #ffa800;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 10px;
+  padding-left: 10px;
+/*ボタン装飾ここまで*/
+}
+
+/*=====会社ロゴ=====*/
+.logo {
+  width: 100px;
+  height: 20px;
+}
+
+/*=====ヒーローイメージ　始まり=====*/
+.first-view {
+  background-image: url(img/first-view.jpg);
+	background-size: cover;/*背景画像を自動的にボックスサイズにあわせる*/
+	background-position: center;/*拝啓画像の中心から切り出す*/
+  width: 100%;
+  height: 800px;
+  color: #ffffff;
+	padding: 15px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;/*フレックスアイテムを縦に並べる*/
+  text-align: center;
+  padding: 30px;
+}
+
+/*画像(未経験から～エンジニアへ)*/
+.first-view img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+/*説明文*/
+.first-view .comment {
+  width: 406px;
+  height: 50px;
+  font-family: KozGoPr6N;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 39px;
+  margin-bottom: 20px;
+}
+
+
+/*棒線*/
+.first-view .Line {
+  width: 500px;
+  height: 2px;
+  border: solid 1px #ffffff;
+  margin: 20px;
+}
+
+/*募集対象*/
+.first-view .-\32 026- {
+  width: 374px;
+  height: 75px;
+  font-family: KozGoPr6N;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/*=====募集対象文の行間=====*/
+.-\32 026- .text-style-1 {
+  line-height: normal;
+}
+
+/*=====申し込みボタン=====*/
+.first-view .Rectangle-2 {
+  width: 252px;
+  height: 35px;
+  border-radius: 25px;
+  background-color: #ffa800;
+  color: #ffffff;
+  padding-top: 11px;
+  padding-bottom: 10px;
+  padding-right: 56px;
+  padding-left: 56px;
+  margin-top: 31px;
+  margin-bottom: 120px;
+}
+
+/*=====ヒーローイメージ　終わり=====*/
+
