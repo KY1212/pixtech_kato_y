@@ -1,332 +1,85 @@
 @charset "UTF-8";
 
-/*=====テキストサイズの自動拡大を無効化=====*/
+* {
+  font-family: 'Roboto', sans-serif;;
+  color: #333;
+  font-size: 14px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9999px;
+  color: #ffffff;
+  padding: 8px 10px;
+}
+
 body {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: 'Roboto', sans-serif;;
-  margin:0;
 }
 
-/*=====ページ全体の設定=====*/
 header {
-  text-align: center;
-  font-size: 14px;
-  width: auto;
-  height: 14px;
-  margin-top: 23px;
-  margin-bottom: 27px;
+  margin: 23px 0 23px 0px;
 }
 
-/*リンクの装飾設定*/
+.fas {
+  display: none !important;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+header .logo {
+  width: 100px;
+  height:20px;
+}
+
+header > .inner {
+  max-width: 96%;
+  width: 980px;  
+  height:60px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between; /*要素内端に寄せる*/
+  align-items: center;
+  }
+
 a {
-  color: initial;/**/
-  text-decoration: none;/*下線消し*/
+  text-decoration: none;
+  display: block;
 }
 
-/*=====ナビゲーションメニュー=====*/
 ul {
-  color: black;
-  list-style-type: none;/*箇条書きのタイプ*/
+  list-style-type: none;
   display: flex;
   justify-content: center;
-  white-space: wrap;
-  margin-right: 100px;
-  padding-right: 16%;
+  align-items: center;
 }
 
-/*最後の要素以外適用*/
 nav li:not(:last-child) {
   margin-right: 20px;
 }
 
-/*ロゴの右マージン*/
-li .logo {
-  margin-right: 87px;
-}
-
-/*
-ナビメニューの最後の要素を装飾
-*/
-li:last-child .Rectangle-2 {
-  width: 112px;
-  font-weight: bold;
-  text-align: center;
-  color: #ffffff;
-/*ボタン装飾ここから*/
+li:last-child .btn {
+  background-color: #ffa800;
   width: 132px;
   height: 30px;
-  border-radius: 50px;
-  background-color: #ffa800;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-right: 10px;
-  padding-left: 10px;
-/*ボタン装飾ここまで*/
 }
 
-/*=====会社ロゴ=====*/
-.logo {
-  width: 100px;
- height: 20px;
-  float: left;
-  padding-left: 16%;
-}
+@media (max-width: 1100px) {
 
-/*=====ヒーローイメージ　始まり=====*/
-.first-view {
-  background-image: url(img/first-view.jpg);
-	background-size: cover;/*背景画像を自動的にボックスサイズにあわせる*/
-	background-position: center;/*拝啓画像の中心から切り出す*/
-  width: 100%;
-  height: 600px;
-  color: #ffffff;
-	padding: 15px;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;/*フレックスアイテムを縦に並べる*/
-  text-align: center;
-  box-sizing: border-box
-}
-
-/*画像(未経験から～エンジニアへ)*/
-.first-view img {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: 99px;
-  padding-top: 69px;
-}
-
-/*説明文*/
-.first-view .comment {
-  font-family: KozGoPr6N;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.86;
-  font-size: 13.4px;
-  letter-spacing: normal;
-  text-align: center;
-  color: #ffffff;
-  margin-top: 39px;
-  margin-bottom: 20px;
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-}
-
-
-/*棒線*/
-.first-view .Line {
-  width: 500px;
-  height: 0.4px;
-  border: solid 0.8px #ffffff;
-  margin: 20px;
-}
-
-/*募集対象*/
-.first-view .recruitment {
-  width: auto;
-  height: auto;
-  font-family: KozGoPr6N;
-  font-size: 13.4px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2;
-  letter-spacing: normal;
-  text-align: center;
-  color: #ffffff;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-/*=====募集対象文の行間=====*/
-.recruitment .text-style-1 {
-  line-height: normal;
-}
-
-/*=====申し込みボタン=====*/
-.first-view .Rectangle-2 {
-  line-height: 16px;
-  font-size: 14px;
-  font-weight: 600;
-  width: auto;
-  height: auto;
-  border-radius: 50px;
-  background-color: #ffa800;
-  color: #ffffff;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 56px;
-  padding-left: 56px;
-  margin-top: 30px;
-  margin-bottom: 120px;
-}
-
-.pc-dsp { display:block; 
-}
-
-.sp-dsp { display:none; 
-}
-/*=====ヒーローイメージ　終わり=====*/
-
-/*1100まで*/
-@media screen and (max-width: 1100px) {
-  .pc-dsp { display:none; 
-  }
- .sp-dsp { display:block;
-  }
-
- header {
-   text-align: center;
-   font-size: 14px;
-   width: auto;
-   margin-top: 23px;
-  }
- 
- #menu-trigger {
-   position: relative;
-   height: 24px;
-   width: 24px;
-   display: inline-block;
-   box-sizing: border-box;
-   float: right;
-   margin: 0 30px 23px 30px ;
- }
-
- #menu-trigger div {
-   position: absolute;
-   left: 0;
-   height: 4px;
-   width: 24px;
-   background-color: #444;
-   border-radius: 2px;
-   display: inline-block;
-   box-sizing: border-box;
- }
- #menu-trigger div:nth-of-type(1) {
-   top: 0;
- }
- #menu-trigger div:nth-of-type(2) {
-   top: 10px;
- }
- #menu-trigger div:nth-of-type(3) {
-   bottom: 0;
- }
-
-/*=====会社ロゴ=====*/
-.logo {
-  float: left;
-  width: 100px;
-  height: 20px;
-  padding-left: 5%;
-}
-
-/*棒線*/
-.first-view .Line {
-  width: 50%;
-  height: 0.4px;
-  border: solid 0.8px #ffffff;
-  margin: 20px;
-}
-
-}
-/*1100*/
-
-@media screen and (max-width: 399px) {
-
-  .pc-dsp { display:none; 
-   }
-  .sp-dsp { display:block;
-   }
-
-  header {
-    text-align: center;
-    font-size: 14px;
-    width: auto;
-    margin-top: 23px;
-  }
-  
-  #menu-trigger {
-    position: relative;
-    height: 24px;
-    width: 24px;
-    display: inline-block;
-    box-sizing: border-box;
-    float: right;
-    margin: 0 30px 23px 30px ;
+  .fas {
+    display: block !important;
 
   }
 
-  #menu-trigger div {
-    position: absolute;
-    left: 0;
-    height: 4px;
-    width: 24px;
-    background-color: #444;
-    border-radius: 2px;
-    display: inline-block;
-    box-sizing: border-box;
-  }
-  #menu-trigger div:nth-of-type(1) {
-    top: 0;
-  }
-  #menu-trigger div:nth-of-type(2) {
-    top: 10px;
-  }
-  #menu-trigger div:nth-of-type(3) {
-    bottom: 0;
+  ul  {
+    display: none;
   }
 
-
-/*=====会社ロゴ=====*/
-.logo {
-  float: left;
-  width: 100px;
-  height: 20px;
-  padding-left: 5%;
 }
-
-/*=====ヒーローイメージ　始まり=====*/
-.first-view {
-  background-image: url(img/first-view.jpg);
-	background-size: cover;/*背景画像を自動的にボックスサイズにあわせる*/
-	background-position: center;/*拝啓画像の中心から切り出す*/
-  width: 100%;
-  height: 650px;
-  color: #ffffff;
-	padding: 15px;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;/*フレックスアイテムを縦に並べる*/
-  text-align: center;
-  padding: 30px;
-  font-size: 14px;
-  padding-top: 20px;
-}
-
-/*画像(未経験から～エンジニアへ)*/
-.first-view img {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-}
-
-/*棒線*/
-.first-view .Line {
-  width: 93%;
-  height: 0.4px;
-  border: solid 0.8px #ffffff;
-  margin: 20px;
-}
-
-}
-/*399*/
