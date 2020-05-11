@@ -21,7 +21,7 @@ body {
 }
 
 header {
-  margin: 23px 0 23px 0px;
+  margin: 1px 0 1px 0px;
 }
 
 .fas {
@@ -39,14 +39,17 @@ header .logo {
   height:20px;
 }
 
-header > .inner {
-  max-width: 96%;
-  width: 980px;  
-  height:60px;
+.inner {
   margin: auto;
   display: flex;
   justify-content: space-between; /*要素内端に寄せる*/
   align-items: center;
+}
+
+header > .inner {
+  max-width: 96%;
+  width: 980px;  
+  height:60px;
   }
 
 a {
@@ -68,9 +71,90 @@ nav li:not(:last-child) {
 li:last-child .btn {
   background-color: #ffa800;
   width: 132px;
-  height: 30px;
+  height: 14px;
 }
 
+
+/*=====first-viewセクション=====*/
+.first-view {
+  background-image: url(img/first-view.jpg);
+  background-size: cover;
+  background-position: center;/*拝啓画像の中心から切り出す*/
+  width: 100%;
+  height: 600px;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center; /*要素内端に寄せる*/
+  align-items: center;
+
+}
+
+section > .inner {
+  width: 100%;
+  margin: auto;
+  height: 430px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center; /*要素内端に寄せる*/
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+  
+}
+
+
+
+/*画像(未経験から～エンジニアへ)*/
+.first-view img {
+  max-width: 96%;
+  max-height: auto;
+  width: 662px;
+  height: auto;
+}
+
+.comment {
+  width: 406px;
+  line-height: 1.86;
+  color: #ffffff;
+}
+
+/*棒線*/
+.first-view .line {
+  max-width: 90%;
+  width: 500px;
+  height: 0.4px;
+  border: solid 0.8px #ffffff;
+  margin-top: 40px;
+}
+
+.conditions {
+  width: 374px;
+  line-height: 1.86;
+  color: #ffffff;
+}
+
+p:nth-child(2) {
+  margin-top: 39px;
+}
+
+ p:nth-child(5) {
+  margin-top: 40px;
+}
+
+
+
+section .btn {
+  max-width: 100%;
+  max-height: auto;
+  width: 252px;
+  margin-top: 40px;
+  background-color: #ffa800;
+  height: 27px;
+}
+
+
+/*=====1100以下で切り替え=====*/
 @media (max-width: 1100px) {
 
   .fas {
@@ -81,5 +165,37 @@ li:last-child .btn {
   ul  {
     display: none;
   }
+
+}
+/*=====640px以下で切り替え=====*/
+@media (max-width: 640px) {
+  .comment {
+    width: 210px;
+    display: inline-block;
+  }
+  
+  .conditions {
+    
+    width: 200px;
+    height:auto;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    word-wrap: break-word;
+  }
+
+  p:nth-child(4) {
+    margin-top: 20px;
+  }
+  
+   p:nth-child(5) {
+    margin-top: 25px;
+  }
+  
+/*棒線*/
+.first-view .line {
+  margin-top: 25px;
+}
+  
 
 }
