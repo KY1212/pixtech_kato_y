@@ -25,6 +25,13 @@ header .sp-icon {
   display: none;
 }
 
+.sp-br {
+  display: none;
+}
+
+.pc-br {
+  display: block;
+}
 
 
 
@@ -180,6 +187,13 @@ section > .inner {
 }
 /*=====420px以下で切り替え=====*/
 @media (max-width: 420px) {
+
+  .sp-br {
+    display: block;
+  }
+  .pc-br {
+    display: none;
+  }
 
 .first-view ul > li {
   max-width:96%;
