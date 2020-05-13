@@ -21,6 +21,13 @@ br {
   display: none;
 }
 
+header .sp-icon {
+  display: none;
+}
+
+
+
+
 body {
   height:3000px;
   -webkit-text-size-adjust: 100%;
@@ -82,9 +89,7 @@ header .btn {
   height: 30px;
 }
 
-header .fas {
-  display: none;
-}
+
 
 /*=====first-viewセクション=====*/
 .first-view {
@@ -164,7 +169,11 @@ section > .inner {
     display: block;
   }
 
-  header ul {
+  header .sp-icon {
+    display: block;
+  }
+  
+  .pc-nav {
     display: none;
   }
 
