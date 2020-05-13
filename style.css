@@ -109,7 +109,7 @@ header .btn {
   display: flex;
   justify-content: center; /*要素内端に寄せる*/
   align-items: center;
-  position: absolute;
+  position: relative;
   top: 60px;
 }
 
@@ -202,9 +202,6 @@ section > .inner {
   width: 87%;
 }
 
-br {
-  display: block;
-}
 
 section > .inner {
   margin-top: 90px;
