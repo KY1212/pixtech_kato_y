@@ -133,6 +133,14 @@ section > .inner {
   height: auto;
 }
 
+.first-view ul {
+  border-top: medium  solid #ffffff;
+  border-top-width: 0.4px;
+  margin-top: 20px;
+  width: 500px;
+
+}
+
 .first-view ul > li {
   line-height: 1.86;
   color: #ffffff;
@@ -143,21 +151,13 @@ section > .inner {
   color: #ffffff;
 }
 
-/*棒線*/
-.first-view .line {
-  max-width: 90%;
-  width: 500px;
-  height: 0.4px;
-  border: solid 0.8px #ffffff;
-  margin-top: 40px;
-}
 
 .first-view p:nth-child(2) {
   margin-top: 39px;
 }
 
  .first-view li:nth-child(1) {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
  .first-view .btn {
@@ -197,6 +197,10 @@ section > .inner {
 
 .first-view ul > li {
   max-width:96%;
+}
+
+.first-view ul {
+  width: 87%;
 }
 
 br {
