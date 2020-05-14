@@ -193,15 +193,12 @@ header .sp-icon {
 
 .first-view ul {
   width: 87%;
+  margin-top: 20px;
 }
 
 section > .inner {
   margin-top: 90px;
   }
-
-.first-view ul {
-  margin-top: 20px;
-}
 
 .first-view li:nth-child(1) {
   margin-top: 20px;
