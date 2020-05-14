@@ -111,7 +111,7 @@ header .btn {
   top: 60px;
 }
 
-section > .inner {
+.first-view > .inner {
   width: 100%;
   margin: auto;
   display: flex;
