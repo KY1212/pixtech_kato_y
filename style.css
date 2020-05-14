@@ -60,7 +60,7 @@ header {
   background-color: #ffffff;
 }
 
-.inner {
+header .inner {
   margin: auto;
   display: flex;
   justify-content: space-between; /*要素内端に寄せる*/
