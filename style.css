@@ -72,7 +72,7 @@ header > .inner {
   width: 979px;
   margin: auto;
   display: flex;
-  justify-content: space-between; /*要素内端に寄せる*/
+  justify-content: space-between; 
   align-items: center;
   height:60px;
 }
@@ -100,12 +100,12 @@ header .btn {
 .first-view {
   background-image: url(img/first-view.jpg);
   background-size: cover;
-  background-position: center;/*拝啓画像の中心から切り出す*/
+  background-position: center;
   width: 100%;
   height: 600px;
   text-align: center;
   display: flex;
-  justify-content: center; /*要素内端に寄せる*/
+  justify-content: center;
   align-items: center;
   position: relative;
   top: 60px;
@@ -115,7 +115,7 @@ section > .inner {
   width: 100%;
   margin: auto;
   display: flex;
-  justify-content: center; /*要素内端に寄せる*/
+  justify-content: center; 
   align-items: center;
   flex-direction: column;
   margin-top: 60px;
