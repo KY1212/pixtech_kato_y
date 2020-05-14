@@ -128,10 +128,10 @@ section > .inner {
 }
 
 .first-view ul {
+  width: 500px;
   border-top: medium  solid #ffffff;
   border-top-width: 0.4px;
   margin-top: 40px;
-  width: 500px;
 }
 
 .first-view ul > li {
@@ -164,28 +164,28 @@ section > .inner {
 /*=====1000以下で切り替え=====*/
 @media (max-width: 1000px) {
 
-  header .fas {
-    display: block;
-  }
+header .fas {
+  display: block;
+}
 
-  header .sp-icon {
-    display: block;
-  }
+header .sp-icon {
+  display: block;
+}
   
-  .pc-nav {
-    display: none;
+.pc-nav {
+  display: none;
   }
 }
 
 /*=====420px以下で切り替え=====*/
 @media (max-width: 420px) {
 
-  .sp-br {
-    display: block;
-  }
-  .pc-br {
-    display: none;
-  }
+.sp-br {
+  display: block;
+}
+.pc-br {
+  display: none;
+}
 
 .first-view ul > li {
   max-width:96%;
