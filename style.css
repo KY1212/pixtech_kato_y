@@ -53,8 +53,11 @@ header nav {
 
 img {
   width: 100%;
-  height: auto;
   vertical-align: bottom;
+}
+
+header a {
+  height:20px;
 }
 
 header {
