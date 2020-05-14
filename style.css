@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/*=====global=====*/
+/*=====グローバル=====*/
 * {
   font-family: 'Roboto', sans-serif;
   color: #333;
@@ -38,6 +38,9 @@ body {
   text-size-adjust: 100%;
 }
 
+/*=====グローバルここまで=====*/
+
+/*=====ヘッダー=====*/
 header h1 {
   width: 100px;
   height:20px;
@@ -61,17 +64,15 @@ header {
   background-color: #ffffff;
 }
 
-header .inner {
+header > .inner {
+  max-width: 96%;
+  width: 979px;
   margin: auto;
   display: flex;
   justify-content: space-between; /*要素内端に寄せる*/
   align-items: center;
-}
-
-header > .inner {
-  width: 96%;  
   height:60px;
-  }
+}
 
 header ul {
   list-style-type: none;
@@ -80,7 +81,7 @@ header ul {
   align-items: center;
 }
 
-header li:not(:first-child) {
+header+.inner, ul > li:not(:first-child) {
   margin-left: 20px;
 }
 
@@ -89,6 +90,8 @@ header .btn {
   width: 132px;
   height: 30px;
 }
+/*=====ヘッダーここまで=====*/
+
 
 /*=====first-viewセクション=====*/
 .first-view {
@@ -124,7 +127,7 @@ section > .inner {
 .first-view ul {
   border-top: medium  solid #ffffff;
   border-top-width: 0.4px;
-  margin-top: 20px;
+  margin-top: 40px;
   width: 500px;
 }
 
@@ -143,7 +146,7 @@ section > .inner {
 }
 
  .first-view li:nth-child(1) {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
  .first-view .btn {
@@ -191,5 +194,13 @@ section > .inner {
 
 section > .inner {
   margin-top: 90px;
+  }
+
+.first-view ul {
+  margin-top: 20px;
+}
+
+.first-view li:nth-child(1) {
+  margin-top: 20px;
   }
 }
