@@ -70,7 +70,7 @@ header a {
 
 header > .inner {
   max-width: 96%;
-  width: 979px;
+  width: 1440px;
   margin: auto;
   display: flex;
   justify-content: space-between; 
