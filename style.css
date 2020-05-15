@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/*=====グローバル=====*/
+/*==========global==========*/
 * {
   font-family: 'Roboto', sans-serif;
   color: #333;
@@ -38,10 +38,13 @@ body {
   text-size-adjust: 100%;
 }
 
-/*=====グローバルここまで=====*/
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+/*==========global==========*/
 
-/*=====ヘッダー=====*/
-
+/*==========local==========*/
 header {
   position: fixed;
   width: 100%;
@@ -49,6 +52,23 @@ header {
   background-color: #ffffff;
 }
 
+.first-view {
+  background-image: url(img/first-view.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 600px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 60px;
+}
+/*==========local==========*/
+
+
+/*==========header==========*/
 header h1 {
   width: 100px;
   height:20px;
@@ -57,11 +77,6 @@ header h1 {
 header nav {
   position: relative;
   left: 30px;
-}
-
-img {
-  width: 100%;
-  vertical-align: bottom;
 }
 
 header a {
@@ -94,24 +109,10 @@ header .btn {
   width: 132px;
   height: 30px;
 }
-/*=====ヘッダーここまで=====*/
+/*==========header==========*/
 
 
-/*=====first-viewセクション=====*/
-.first-view {
-  background-image: url(img/first-view.jpg);
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 600px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  top: 60px;
-}
-
+/*==========first-view==========*/
 .first-view > .inner {
   width: 100%;
   margin: auto;
@@ -162,8 +163,8 @@ header .btn {
 }
 
 
-/*=====1000以下で切り替え=====*/
-@media (max-width: 1000px) {
+/*==========1000以下で切り替え==========*/
+@media (max-width: 1024px) {
 
 header .fas {
   display: block;
@@ -178,8 +179,12 @@ header .sp-icon {
   }
 }
 
-/*=====420px以下で切り替え=====*/
-@media (max-width: 420px) {
+/*==========420px以下で切り替え==========*/
+@media (max-width: 768px) {
+}
+
+/*==========420px以下で切り替え==========*/
+@media (max-width: 375px) {
 
 .sp-br {
   display: block;
