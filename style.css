@@ -149,13 +149,13 @@ header .btn {
   margin-top: 39px;
 }
 
- .first-view li:nth-child(1) {
+.first-view li:nth-child(1) {
   margin-top: 40px;
 }
 
- .first-view .btn {
-   margin: auto;
-   width: 252px;
+.first-view .btn {
+  margin: auto;
+  width: 252px;
   height: 35px;
   margin-top: 40px;
   background-color: #ffa800;
@@ -197,7 +197,7 @@ header .sp-icon {
   margin-top: 20px;
 }
 
-section > .inner {
+.first-view > .inner {
   margin-top: 90px;
   }
 
