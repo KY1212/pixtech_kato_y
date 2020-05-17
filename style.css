@@ -26,6 +26,10 @@ img {
   color: #ffffff;
 }
 
+.btn a{
+  color: inherit;
+}
+
 a {
   text-decoration: none;
   display: block;
@@ -63,6 +67,7 @@ a {
 }
 
 
+
 /*==========local==========*/
 header {
   position: fixed;
@@ -71,7 +76,7 @@ header {
   background-color: #ffffff;
 }
 
-.first-view {
+.firstView {
   background-image: url(img/first-view.jpg);
   background-size: cover;
   background-position: center;
@@ -89,7 +94,7 @@ header a {
   height: 20px;
 }
 
-header > .inner {
+header>.inner {
   width: 96%;
   max-width: 971px;
   margin: 15px auto ;
@@ -105,14 +110,13 @@ header ul {
   align-items: center;
 }
 
-header ul > li:not(:first-child) {
+header ul>li:not(:first-child) {
   margin-left: 20px;
 }
 
-header ul > li:first-child {
+header ul>li:first-child {
   margin-left: 56px;
 }
-
 
 header .btn {
   background-color: #ffa800;
@@ -120,9 +124,7 @@ header .btn {
   height: 30px;
 }
 
-.btn a {
-  color: inherit;
-}
+
 
 /*=====1024以下で切り替え=====*/
 @media (max-width: 1024px) {
@@ -142,8 +144,8 @@ nav,header>.inner>.btn {
 
 
 
-/*==========first-view==========*/
-.first-view > .inner {
+/*==========firstView==========*/
+.firstView > .inner {
   width: 100%;
   margin: auto;
   display: flex;
@@ -153,41 +155,41 @@ nav,header>.inner>.btn {
   margin-top: 60px;
 }
 
-.first-view h2 {
+.firstView h2 {
   max-width: 96%;
   max-height: auto;
   width: 662px;
   margin-top: 60px;
 }
 
-.first-view ul {
+.firstView ul {
   width: 500px;
   border-top: medium  solid #ffffff;
   border-top-width: 0.4px;
   margin-top: 40px;
 }
 
-.first-view ul > li {
+.firstView ul > li {
   line-height: 1.86;
   color: #ffffff;
   text-align: center;
 }
 
-.first-view p {
+.firstView p {
   line-height: 1.86;
   color: #ffffff;
   text-align: center;
 }
 
-.first-view p:nth-child(2) {
+.firstView p:nth-child(2) {
   margin-top: 39px;
 }
 
-.first-view li:nth-child(1) {
+.firstView li:nth-child(1) {
   margin-top: 40px;
 }
 
-.first-view .btn {
+.firstView .btn {
 margin: auto;
 width: 252px;
   height: 35px;
@@ -195,7 +197,7 @@ width: 252px;
   background-color: #ffa800;
 }
 
-/*=====first-view 1024以下で切り替え==========*/
+/*=====firstView 1024以下で切り替え==========*/
 @media (max-width: 1024px) {
 
 header .fas {
@@ -211,24 +213,24 @@ nav,header>.inner>.btn {
 }
 }
 
-/*=====first-view 768px以下で切り替え=====*/
+/*=====firstView 768px以下で切り替え=====*/
 @media (max-width: 768px) {
 }
 
-/*=====first-view 320px以下で切り替え=====*/
+/*=====firstView 320px以下で切り替え=====*/
 @media (max-width: 375px) {
 
-.first-view ul > li {
+.firstView ul > li {
   max-width:96%;
   margin-left: 0;
 }
 
-.first-view ul {
+.firstView ul {
   width: 87%;
   margin-top: 20px;
 }
 
-.first-view li:nth-child(1) {
+.firstView li:nth-child(1) {
   margin-top: 20px;
 }
 }
