@@ -88,9 +88,9 @@ header a {
 
 header>.inner {
   width: 96%;
-  max-width: 971px;
+  max-width: 979px;
   height: 60px;
-  margin:  auto ;
+  margin: auto ;
   display: flex;
   justify-content: space-between; 
   align-items: center;
