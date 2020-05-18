@@ -79,13 +79,11 @@ header {
 
 
 /*==========header==========*/
-header h1 {
-  width: 100px;
-}
 
-header a {
-  height: 20px;
-}
+
+
+
+
 
 header>.inner {
   width: 96%;
@@ -95,6 +93,11 @@ header>.inner {
   display: flex;
   justify-content: space-between; 
   align-items: center;
+}
+
+header h1>a {
+  width: 100px;
+
 }
 
 header ul {
