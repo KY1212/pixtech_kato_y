@@ -5,6 +5,8 @@
   font-family: 'Roboto', sans-serif;
   color: #333;
   box-sizing:border-box;
+  line-height: 1.86;
+
 }
 
 a {
@@ -160,13 +162,11 @@ nav,header>.inner>.btn {
 }
 
 .firstView ul > li {
-  line-height: 1.86;
   color: #ffffff;
   text-align: center;
 }
 
 .firstView p {
-  line-height: 1.86;
   color: #ffffff;
   text-align: center;
 }
