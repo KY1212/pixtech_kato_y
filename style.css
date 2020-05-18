@@ -155,6 +155,8 @@ nav,header>.inner>.btn {
   border-top: medium  solid #ffffff;
   border-top-width: 0.4px;
   margin-top: 40px;
+  padding-top: 40px;
+
 }
 
 .firstView ul > li {
@@ -171,10 +173,6 @@ nav,header>.inner>.btn {
 
 .firstView p:nth-child(2) {
   margin-top: 39px;
-}
-
-.firstView li:nth-child(1) {
-  margin-top: 40px;
 }
 
 .firstView .btn {
