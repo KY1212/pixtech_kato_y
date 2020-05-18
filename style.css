@@ -43,7 +43,7 @@ img {
   display: block;
 }
 
-.icon {
+.humburgerIcon {
   display: none;
 }
 
@@ -125,7 +125,7 @@ header .fas {
   display: block;
 }
 
-header .icon {
+header .humburgerIcon {
   display: block;
 }
 
@@ -195,7 +195,7 @@ header .fas {
   display: block;
 }
 
-header .icon {
+header .humburgerIcon {
   display: block;
 }
 
