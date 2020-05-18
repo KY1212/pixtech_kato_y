@@ -154,8 +154,7 @@ nav,header>.inner>.btn {
 
 .firstView ul {
   width: 500px;
-  border-top: medium  solid #ffffff;
-  border-top-width: 0.4px;
+  border-top: 0.4px solid #ffffff;
   margin-top: 40px;
   padding-top: 40px;
 
