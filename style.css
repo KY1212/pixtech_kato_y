@@ -35,11 +35,11 @@ img {
   color: inherit;
 }
 
-.sp-br {
+.spNone {
   display: none;
 }
 
-.pc-br {
+.pcNone {
   display: block;
 }
 
@@ -58,10 +58,10 @@ img {
 /*=====global 320px以下で切り替え=====*/
 @media (max-width: 375px) {
 
-.sp-br {
+.spNone {
   display: block;
 }
-.pc-br {
+.pcNone {
   display: none;
 }
 }
