@@ -7,6 +7,11 @@
   box-sizing:border-box;
 }
 
+a {
+  text-decoration: none;
+  display: block;
+}
+
 body {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
@@ -28,11 +33,6 @@ img {
 
 .btn a{
   color: inherit;
-}
-
-a {
-  text-decoration: none;
-  display: block;
 }
 
 .sp-br {
