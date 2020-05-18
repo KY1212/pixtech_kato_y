@@ -172,12 +172,12 @@ nav,header>.inner>.btn {
 }
 
 .firstView p:nth-child(2) {
-  margin-top: 39px;
+  margin-top: 40px;
 }
 
 .firstView .btn {
-margin: auto;
-width: 252px;
+  margin: auto;
+  width: 252px;
   height: 35px;
   margin-top: 40px;
   background-color: #ffa800;
