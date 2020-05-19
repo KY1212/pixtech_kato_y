@@ -69,12 +69,7 @@ header {
   background-color: #ffffff;
 }
 
-.firstView {
-  background-image: url(img/first-view.jpg);
-  background-size: cover;
-  background-position: center;
 
-}
 
 
 /*==========header==========*/
@@ -135,6 +130,12 @@ nav,header>.inner>.btn {
 
 
 /*==========firstView==========*/
+.firstView {
+  background-image: url(img/first-view.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 .firstView > .inner {
   width: 100%;
   height: 600px;
