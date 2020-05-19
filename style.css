@@ -84,7 +84,7 @@ header ul {
   align-items: center;
 }
 
-header ul>li:not(:first-child) {
+header ul>li+li {
   margin-left: 20px;
 }
 
