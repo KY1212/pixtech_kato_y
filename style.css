@@ -60,8 +60,7 @@ img {
 }
 
 
-
-/*==========local==========*/
+/*==========header==========*/
 header {
   position: fixed;
   width: 100%;
@@ -69,10 +68,6 @@ header {
   background-color: #ffffff;
 }
 
-
-
-
-/*==========header==========*/
 header>.inner {
   width: 96%;
   max-width: 979px;
