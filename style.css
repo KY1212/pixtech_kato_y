@@ -92,7 +92,7 @@ header ul>li:first-child {
   margin-left: 56px;
 }
 
-header .btn {
+header a.btn {
   background-color: #ffa800;
   width: 132px;
   height: 30px;
