@@ -8,15 +8,15 @@
   line-height: 1.86;
 }
 
-a {
-  text-decoration: none;
-  display: block;
-}
-
 body {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  display: block;
 }
 
 img {
@@ -51,7 +51,6 @@ img {
   }
 }
 
-
 /*==========header==========*/
 header {
   position: fixed;
@@ -60,7 +59,7 @@ header {
   background-color: #ffffff;
 }
 
-header>.inner {
+header > .inner {
   width: 96%;
   max-width: 980px;
   height: 60px;
@@ -70,7 +69,7 @@ header>.inner {
   align-items: center;
 }
 
-header h1>a {
+header h1 > a {
   width: 100px;
   display: flex;
   justify-content: center;
@@ -84,11 +83,11 @@ header ul {
   align-items: center;
 }
 
-header ul>li+li {
+header ul > li + li {
   margin-left: 20px;
 }
 
-header ul>li:first-child {
+header ul > li:first-child {
   margin-left: 56px;
 }
 
@@ -98,56 +97,68 @@ header a.btn {
   height: 30px;
 }
 
-
 /*=====1024以下で切り替え=====*/
 @media (max-width: 1024px) {
 
-header .fas {
-  display: block;
-}
+  header .fas {
+    display: block;
+  }
+  
+  header .toggle {
+    display: block;
+  }
+  
+  nav,header>.inner>.btn {
+    display: none;
+  }
 
-header .toggle {
-  display: block;
 }
-
-nav,header>.inner>.btn {
-  display: none;
-}
-}
-
 
 /*==========firstView==========*/
-.firstView {
+section .firstView {
   background-image: url(img/first-view.jpg);
   background-size: cover;
   background-position: center;
+  width: 100%;
+  height: 600px;
+  position: relative;
+  top:60px;
 }
 
 .firstView > .inner {
+  max-width: 662px;
   width: 100%;
-  height: 600px;
-  margin-top: 60px;
+  height: 420px;
+  margin: auto;
+  position: relative;
+  top:60px;
+}
+
+.firstView h2 {
   display: flex;
   justify-content: center; 
   align-items: center;
   flex-direction: column;
-}
-
-.firstView h2 {
   max-width: 96%;
   width: 662px;
-  margin-top: 60px;
+  margin: auto;
 }
 
 .firstView ul {
-  width: 500px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column;
   border-top: 0.4px solid #ffffff;
   margin-top: 40px;
   padding-top: 40px;
-
 }
 
 .firstView ul > li {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column;
   color: #ffffff;
   text-align: center;
 }
@@ -172,33 +183,35 @@ nav,header>.inner>.btn {
 /*=====firstView 1024以下で切り替え==========*/
 @media (max-width: 1024px) {
 
-header .fas {
-  display: block;
-}
+  header .fas {
+    display: block;
+  }
 
-header .toggle {
-  display: block;
-}
+  header .toggle {
+    display: block;
+  }
 
-nav,header>.inner>.btn {
-  display: none;
-}
+  nav,header>.inner>.btn {
+    display: none;
+  }
+
 }
 
 /*=====firstView 320px以下で切り替え=====*/
 @media (max-width: 375px) {
 
-.firstView ul > li {
-  max-width:96%;
-  margin-left: 0;
-}
+  .firstView ul > li {
+    max-width:96%;
+    margin-left: 0;
+  }
 
-.firstView ul {
-  width: 87%;
-  margin-top: 20px;
-}
+  .firstView ul {
+    width: 100%;
+    margin-top: 20px;
+  }
 
-.firstView li:nth-child(1) {
-  margin-top: 20px;
-}
+  .firstView li:nth-child(1) {
+    margin-top: 20px;
+  }
+
 }
