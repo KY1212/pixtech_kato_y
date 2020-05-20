@@ -14,7 +14,6 @@ body {
   font-size: 14px;
 }
 
-
 a {
   text-decoration: none;
 }
@@ -122,11 +121,11 @@ header a.btn {
   height: 600px;
 }
 
-.firstView  .inner {
+.firstView > .inner {
   max-width: 662px;
   width: 96%;
-padding-top: 60px;
-margin: auto;
+  padding-top: 60px;
+  margin: auto;
 }
 
 .firstView ul {
