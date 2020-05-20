@@ -105,7 +105,7 @@ header a.btn {
     display: block;
   }
   
-  nav,header>.inner>.btn {
+  header>.inner nav {
     display: none;
   }
 
