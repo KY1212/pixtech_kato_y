@@ -125,7 +125,7 @@ header a.btn {
   margin: auto;
   position: relative;
   top: 60px;
-  width: 96%;
+  width: 90%;
 }
 
 .firstView ul {
@@ -155,9 +155,8 @@ header a.btn {
 @media (max-width: 375px) {
 
   .firstView ul {
-    width: 84%;
-    margin: 20px auto auto auto;
-    padding: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
   }
 
 }
