@@ -129,20 +129,12 @@ header a.btn {
 }
 
 .firstView ul {
-  display: flex;
-  justify-content: center; 
-  align-items: center;
-  flex-direction: column;
   border-top: 1px solid #ffffff;
   margin-top: 40px;
   padding-top: 40px;
 }
 
 .firstView ul > li {
-  display: flex;
-  justify-content: center; 
-  align-items: center;
-  flex-direction: column;
   color: #ffffff;
   text-align: center;
 }
