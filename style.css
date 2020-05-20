@@ -88,10 +88,6 @@ header ul > li + li {
   margin-left: 20px;
 }
 
-header ul > li:first-child {
-  margin-left: 56px;
-}
-
 header a.btn {
   background-color: #ffa800;
   width: 132px;
