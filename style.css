@@ -162,11 +162,7 @@ header a.btn {
   .firstView ul {
     width: 84%;
     margin: 20px auto auto auto;
-    padding: 0;
-  }
-
-  .firstView li:nth-child(1) {
-    margin-top: 20px;
+    padding: 20px;
   }
 
 }
