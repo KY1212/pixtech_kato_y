@@ -97,10 +97,6 @@ header a.btn {
 /*=====1024以下で切り替え=====*/
 @media (max-width: 1024px) {
 
-  header .fas {
-    display: block;
-  }
-  
   header .toggle {
     display: block;
   }
