@@ -102,7 +102,7 @@ header a.btn {
 
 /*==========firstView==========*/
 #firstView {
-  background-image: url(img/first-view.jpg);
+  background-image: url(../img/first-view.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -136,6 +136,7 @@ header a.btn {
 #firstView .btn {
   width: 252px;
   height: 35px;
+  margin-top: 40px;
   background-color: #ffa800;
 }
 
