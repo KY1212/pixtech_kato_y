@@ -44,12 +44,7 @@ img {
   display: none;
 }
 
-/*=====global 425px以下で切り替え=====*/
-@media (max-width: 425px) {
-  .pcNone {
-    display: block;
-  }
-}
+
 
 /*==========header==========*/
 header {
@@ -152,6 +147,10 @@ header a.btn {
   #firstView ul {
     margin-top: 20px;
     padding-top: 20px;
+  }
+
+  #firstView .pcNone {
+    display: block;
   }
 
 }
