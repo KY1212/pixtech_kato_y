@@ -44,8 +44,6 @@ img {
   display: none;
 }
 
-
-
 /*==========header==========*/
 header {
   position: sticky;
@@ -129,7 +127,7 @@ header a.btn {
   text-align: center;
 }
 
-#firstView p {
+#firstView p.concept {
   color: #ffffff;
   text-align: center;
   margin-top: 40px;
