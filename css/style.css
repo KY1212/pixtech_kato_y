@@ -126,17 +126,19 @@ header .btn {
   text-align: center;
 }
 
+#firstView p {
+  margin-top: 40px;
+}
+
 #firstView .concept {
   color: #ffffff;
   text-align: center;
-  margin-top: 40px;
 }
 
 #firstView .btn {
   background-color: #ffa800;
   width: 252px;
   height: 35px;
-  margin-top: 40px;
 }
 
 /*=====firstView 425px以下で切り替え=====*/
