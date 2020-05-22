@@ -60,7 +60,6 @@ header > .inner {
   width: 96%;
   max-width: 980px;
   height: 60px;
-  margin: auto ;
   margin: auto;
 }
 
@@ -81,7 +80,7 @@ header ul > li + li {
   margin-left: 20px;
 }
 
-header a.btn {
+header .btn {
   background-color: #ffa800;
   width: 132px;
   height: 30px;
@@ -127,7 +126,7 @@ header a.btn {
   text-align: center;
 }
 
-#firstView p.concept {
+#firstView .concept {
   color: #ffffff;
   text-align: center;
   margin-top: 40px;
