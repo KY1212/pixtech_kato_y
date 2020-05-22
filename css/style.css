@@ -2,7 +2,6 @@
 
 /*==========global==========*/
 * {
-  font-family: 'Roboto', sans-serif;
   color: #333;
   box-sizing: border-box;
   line-height: 1.86;
@@ -12,6 +11,8 @@ body {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 a {
