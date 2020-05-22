@@ -28,12 +28,7 @@ img {
   justify-content: center;
   align-items: center;
   border-radius: 9999px;
-  color: #ffffff;
   margin: auto;
-}
-
-.btn a{
-  color: inherit;
 }
 
 .pcNone {
@@ -82,6 +77,7 @@ header ul > li + li {
 
 header .btn {
   background-color: #ffa800;
+  color: #ffffff;
   width: 132px;
   height: 30px;
 }
@@ -119,6 +115,7 @@ header .btn {
   border-top: 1px solid #ffffff;
   margin-top: 40px;
   padding-top: 40px;
+  
 }
 
 .firstView ul > li {
@@ -137,6 +134,7 @@ header .btn {
 
 .firstView .btn {
   background-color: #ffa800;
+  color: #ffffff;
   width: 252px;
   height: 35px;
 }
