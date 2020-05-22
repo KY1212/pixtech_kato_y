@@ -100,7 +100,7 @@ header .btn {
 }
 
 /*==========firstView==========*/
-#firstView {
+.firstView {
   background-image: url(../img/first-view.jpg);
   background-size: cover;
   background-position: center;
@@ -109,33 +109,33 @@ header .btn {
   padding-top: 60px;
 }
 
-#firstView > .inner {
+.firstView > .inner {
   max-width: 662px;
   width: 96%;
   margin: auto;
 }
 
-#firstView ul {
+.firstView ul {
   border-top: 1px solid #ffffff;
   margin-top: 40px;
   padding-top: 40px;
 }
 
-#firstView ul > li {
+.firstView ul > li {
   color: #ffffff;
   text-align: center;
 }
 
-#firstView p {
+.firstView p {
   margin-top: 40px;
 }
 
-#firstView .lead {
+.firstView .lead {
   color: #ffffff;
   text-align: center;
 }
 
-#firstView .btn {
+.firstView .btn {
   background-color: #ffa800;
   width: 252px;
   height: 35px;
@@ -144,12 +144,12 @@ header .btn {
 /*=====firstView 425px以下で切り替え=====*/
 @media (max-width: 425px) {
 
-  #firstView ul {
+  .firstView ul {
     margin-top: 20px;
     padding-top: 20px;
   }
 
-  #firstView .pcNone {
+  .firstView .pcNone {
     display: block;
   }
 
