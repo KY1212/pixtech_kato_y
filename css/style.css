@@ -31,6 +31,11 @@ img {
   margin: auto;
 }
 
+header .btn, .firstView .btn {
+  color: #ffffff;
+  background-color: #ffa800;
+}
+
 .pcNone {
   display: none;
 }
@@ -76,8 +81,6 @@ header ul > li + li {
 }
 
 header .btn {
-  background-color: #ffa800;
-  color: #ffffff;
   width: 132px;
   height: 30px;
 }
@@ -133,8 +136,6 @@ header .btn {
 }
 
 .firstView .btn {
-  background-color: #ffa800;
-  color: #ffffff;
   width: 252px;
   height: 35px;
 }
