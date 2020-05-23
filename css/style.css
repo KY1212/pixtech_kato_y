@@ -100,7 +100,6 @@ header .btn {
   background-image: url(../img/first-view.jpg);
   background-size: cover;
   background-position: center;
-  width: 100%;
   height: 600px;
   padding-top: 60px;
 }
@@ -115,7 +114,6 @@ header .btn {
   border-top: 1px solid #ffffff;
   margin-top: 40px;
   padding-top: 40px;
-  width: 100%;
   max-width: 500px;
   margin: 40px auto auto auto;
 }
