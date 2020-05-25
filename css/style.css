@@ -4,7 +4,7 @@
 * {
   color: #333;
   box-sizing: border-box;
-  line-height: 1.86;
+  line-height: 1.8;
 }
 
 body {
@@ -115,7 +115,7 @@ header .btn {
   margin-top: 40px;
   padding-top: 40px;
   max-width: 500px;
-  margin: 40px auto auto auto;
+  margin: 40px auto 0;
 }
 
 .firstView ul > li {
