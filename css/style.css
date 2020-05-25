@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+/*==========global==========*/
+* {
+  color: #333;
+  box-sizing: border-box;
+  line-height: 1.8;
+}
+
+body {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.btn {
+  background-color: #ffa800;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9999px;
+  margin: auto;
+}
+
+.pcNone {
+  display: none;
+}
+
+.toggle {
+  display: none;
+}
+
+/*==========header==========*/
+header {
+  background-color: #ffffff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+header > .inner {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  width: 96%;
+  max-width: 980px;
+  height: 60px;
+  margin: auto;
+}
+
+header h1 > a {
+  width: 100px;
+  display: flex;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+}
+
+header ul > li + li {
+  margin-left: 20px;
+}
+
+header .btn {
+  width: 132px;
+  height: 30px;
+}
+
+/*=====1024以下で切り替え=====*/
+@media (max-width: 1024px) {
+
+  header .toggle {
+    display: block;
+  }
+  
+  header nav {
+    display: none;
+  }
+
+}
+
+/*==========firstView==========*/
+.firstView {
+  background-image: url(../img/first-view.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  padding-top: 60px;
+}
+
+.firstView > .inner {
+  max-width: 662px;
+  width: 96%;
+  margin: auto;
+}
+
+.firstView ul {
+  border-top: 1px solid #ffffff;
+  padding-top: 40px;
+  max-width: 500px;
+  margin: 40px auto 0;
+}
+
+.firstView ul > li {
+  color: #ffffff;
+  text-align: center;
+}
+
+.firstView p {
+  margin-top: 40px;
+}
+
+.firstView .lead {
+  color: #ffffff;
+  text-align: center;
+}
+
+.firstView .btn {
+  width: 252px;
+  height: 35px;
+}
+
+/*=====firstView 425px以下で切り替え=====*/
+@media (max-width: 425px) {
+
+  .firstView ul {
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+
+  .firstView .pcNone {
+    display: block;
+  }
+
+}
