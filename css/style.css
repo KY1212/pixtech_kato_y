@@ -25,16 +25,13 @@ img {
 }
 
 .btn {
+  background-color: #ffa800;
+  color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 9999px;
   margin: auto;
-}
-
-header .btn, .firstView .btn {
-  color: #ffffff;
-  background-color: #ffa800;
 }
 
 .pcNone {
@@ -47,11 +44,11 @@ header .btn, .firstView .btn {
 
 /*==========header==========*/
 header {
+  background-color: #ffffff;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: #ffffff;
 }
 
 header > .inner {
